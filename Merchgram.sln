@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merchgram.Domain", "Merchgram.Domain\Merchgram.Domain.csproj", "{77FF538C-4165-459A-B611-D03C8DB89884}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77FF538C-4165-459A-B611-D03C8DB89884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77FF538C-4165-459A-B611-D03C8DB89884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77FF538C-4165-459A-B611-D03C8DB89884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77FF538C-4165-459A-B611-D03C8DB89884}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39C36C5C-B13F-4F3A-99DB-A5BF6C7F7141}
+	EndGlobalSection
+EndGlobal
