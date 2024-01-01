@@ -5,6 +5,12 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merchgram.Domain", "Merchgram.Domain\Merchgram.Domain.csproj", "{77FF538C-4165-459A-B611-D03C8DB89884}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merchgram.Application", "Merchgram.Application\Merchgram.Application.csproj", "{C87D2280-6815-41D5-B47B-C0FC212C9A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merchgram.Infrastructure", "Merchgram.Infrastructure\Merchgram.Infrastructure.csproj", "{8D1DB29E-5B9A-44E0-A6AA-923A95B6A368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merchgram.Api", "Merchgram.Api\Merchgram.Api.csproj", "{334A46BD-87A7-4130-99F6-76FC65DFD037}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{77FF538C-4165-459A-B611-D03C8DB89884}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77FF538C-4165-459A-B611-D03C8DB89884}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77FF538C-4165-459A-B611-D03C8DB89884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87D2280-6815-41D5-B47B-C0FC212C9A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87D2280-6815-41D5-B47B-C0FC212C9A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87D2280-6815-41D5-B47B-C0FC212C9A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87D2280-6815-41D5-B47B-C0FC212C9A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1DB29E-5B9A-44E0-A6AA-923A95B6A368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1DB29E-5B9A-44E0-A6AA-923A95B6A368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1DB29E-5B9A-44E0-A6AA-923A95B6A368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1DB29E-5B9A-44E0-A6AA-923A95B6A368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334A46BD-87A7-4130-99F6-76FC65DFD037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334A46BD-87A7-4130-99F6-76FC65DFD037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334A46BD-87A7-4130-99F6-76FC65DFD037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334A46BD-87A7-4130-99F6-76FC65DFD037}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
