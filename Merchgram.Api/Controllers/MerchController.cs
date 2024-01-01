@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Merchgram.Application;
+using Merchgram.Domain;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Merchgram.Api.Controllers
 {
@@ -6,10 +8,17 @@ namespace Merchgram.Api.Controllers
     [ApiController]
     public class MerchController : ControllerBase
     {
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private readonly IMerchService _merchService;
+        public MerchController(IMerchService merchService)
         {
-            return new string[] { "value1", "value2" };
+            _merchService = merchService;
+        }
+
+        [HttpGet]
+        public ActionResult<List<Merch>> Get()
+        {
+            var merches = _merchService.GetAllMerches();
+            return Ok(merches);
         }
     }
 }
